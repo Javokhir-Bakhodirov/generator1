@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/normalize.css">
+    <link rel="stylesheet" href="./css/main.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <div class="check">
+        <h1 class="check__title">Sport check</h1>
+        <form action="https://echo.htmlacademy.ru" method="get">
+            <div class="check__box">
+                <div class="check__item">
+                    <label for="sport">football</label>
+                    <input class="sport visually-hidden" id="sport" type="radio" value="football" required name="user-checked-sport">
+                    <span class="span"></span>
+                 </div>
+                 <div class="check__item">
+                    <label for="sport1">hockey</label>
+                    <input class="sport1 visually-hidden" id="sport1" type="radio" value="xokkey" required name="user-checked-sport">
+                    <span class="span"></span>
+                </div>
+                <div class="check__item">
+                    <label for="sport2">voleybol</label>
+                    <input class="sport2 visually-hidden" id="sport2" type="radio" value="voleybol" required name="user-checked-sport">
+                    <span class="span"></span>
+                </div>
+                <div class="check__item item3">
+                    <label  for="sport3">tennis</label>
+                    <input class="sport3 visually-hidden" id="sport3" type="radio" value="tennis" checked disabled required name="user-checked-sport">
+                    <span class="span"></span>
+                </div>
+            </div>
+            <div class="check_1">
+                <button class="check__btn" type="submit"><span class="check__btn__3">submit</span></button>
+            </div>
+            
+        </form>
+        </div>
+    </div>
+</body>
+</html>
